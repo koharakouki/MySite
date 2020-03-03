@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+	background-color: #EC715F;
+}
+
+.header-box {
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.logo {
+	height: 70px;
+	float: left;
+}
+
+.nav-list {
+	text-align: right;
+}
+
+.nav-item {
+	display: inline-block;
+	list-style: none;
+	line-height: 70px;
+	margin: 0 30px;
+}
+
+.nav-list-item {
+	color: #FAFAFA;
+	text-decoration: none;
+	font-size: 16px;
+}
