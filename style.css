@@ -344,6 +344,10 @@ footer {
 
 @media screen and (max-width:768px) {
 
+
+/*-------------max-width:768pxへ適応(header)------------*/
+
+
 	.header-box {
 		width: 90%;
 		height: 50px;
@@ -384,11 +388,57 @@ footer {
 		display: none;
 	}
 
+/*-------------max-width:768pxへ適応(main-visual)------------*/
+
+	.container {
+		background-image: url(img/code.png);
+	}
+
+	.main-visual-title {
+		font-size: 40px;
+	}
+
+	.main-visual-text {
+		font-size: 18px;
+	}
+
+/*-------------max-width:768pxへ適応(Portfolio)------------*/
+
+	.Portfolio-container {
+		width: 90%;
+	}
+
+	.Portfolio-image-1, .Portfolio-image-3, .Portfolio-image-5 {
+		display: none;
+	}
+
+	.Portfolio-image-2, .Portfolio-image-4, .Portfolio-image-6 {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+/*-------------max-width:768pxへ適応(Feature)------------*/
+
+	.Feature-container {
+		width: 90%;
+	}
+
+	.strength1 {
+		margin: 0 auto;
+	}
+
+/*-------------max-width:768pxへ適応(Profile)------------*/
+
+	.Profile-container {
+		width: 90%;
+	}
 
 
 
 
-}
+
+}/*←消さない*/
 
 
 
